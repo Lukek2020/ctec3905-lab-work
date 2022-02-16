@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+}
+
+header, section{
+  overflow: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #6b705c;
+  justify-content: space-between;
+  width: 15vw;
+  order: 2;
+}
+
+nav a{
+
+  color: #ffe8d6;
+  padding: 0.25em;
+  margin: 1em;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+nav a:hover{
+  color: #f7ccab;
+}
+
+header{
+  background-color: #b7b7a4
+}
+
+main{
+  display: flex;
+  overflow: auto;
+  width: 85vw;
+  background-color: #b7b7a4
+}
+
+p{
+  padding: 0 20em 0 20em;
+}
+
+#target{
+  background-color: white;
+  padding: 0 0.5em 0 0.5em;
+  border: 3px solid black;
+}
